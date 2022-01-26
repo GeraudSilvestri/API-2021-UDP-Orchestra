@@ -5,8 +5,8 @@ RUN apt-get update && \
 
 WORKDIR /opt/app
 
-COPY src /opt/app
+COPY src .
 
-run npm install
+RUN npm install
 
-CMD ["node", "/opt/app/play-instrument.js"]
+ENTRYPOINT ["node", "/opt/app/play-instrument.js"]
