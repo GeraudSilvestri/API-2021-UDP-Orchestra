@@ -1,0 +1,25 @@
+origin	git@github.com:GeraudSilvestri/API-2021-UDP-Orchestra.git (fetch)
+origin	git@github.com:GeraudSilvestri/API-2021-UDP-Orchestra.git (push)
+Starting auditor container "5ae43339b1e130d3c7715abfaa7d480789168e4ee8d26c49e65e0085395d7c13"
+Starting auditor container "467781d68c870febf461e78b102aa8bdeed7888310c30814da28a9db70e5cdb8"
+Starting auditor container "f0441dce3c291d3917515564f196b2c2fcddd8f99a5a49e3226c22fb67c2a69a"
+Starting auditor container "19a8bcb099234b7c447173535b8a4e731eaa8b937b1e61d076335225e2d053b3"
+Starting auditor container "6d321c0d1adff4741f64bd3d1e62fadfbcb61c32376310d8f969e27c4cdbbfef"
+Starting auditor container "49326a17ff30d3e68b24b3c312561d11d7d26bee696df797be25427d0c62e203"
+Starting auditor container "2228c6db88592b1e138c8c740fd465f53ff8fc5efd739107c3479fc33aac3af2"
+Starting auditor container "ecf8a22375225c80ef8ccd9b53a3ec9ef83bfae466e918e8883639884d03ebbc"
+Starting auditor container "d17769e2f03ae458c9e6f9337ba35747eac9c9b3cc1cc5548694070af285f64e"
+Starting auditor container "0a4c10d31888fd27a0c6c09e857130af633ce60706aa7b97d98aecda63443d1a"
+Starting auditor container "73bc9fa712f1d176356e5ea93eb2e6d2b579632bbd265b83376ce3833c3399a8"
+11 containers have been started.
+0a4c10d31888fd27a0c6c09e857130af633ce60706aa7b97d98aecda63443d1a : /opt/app/play-instrument.js,drum
+73bc9fa712f1d176356e5ea93eb2e6d2b579632bbd265b83376ce3833c3399a8 : /opt/app/play-instrument.js,piano
+6d321c0d1adff4741f64bd3d1e62fadfbcb61c32376310d8f969e27c4cdbbfef : /opt/app/play-instrument.js,flute
+467781d68c870febf461e78b102aa8bdeed7888310c30814da28a9db70e5cdb8 : /opt/app/play-instrument.js,violin
+ecf8a22375225c80ef8ccd9b53a3ec9ef83bfae466e918e8883639884d03ebbc : /opt/app/play-instrument.js,drum
+5ae43339b1e130d3c7715abfaa7d480789168e4ee8d26c49e65e0085395d7c13 : /opt/app/play-instrument.js,piano
+f0441dce3c291d3917515564f196b2c2fcddd8f99a5a49e3226c22fb67c2a69a : /opt/app/play-instrument.js,flute
+d17769e2f03ae458c9e6f9337ba35747eac9c9b3cc1cc5548694070af285f64e : /opt/app/play-instrument.js,drum
+2228c6db88592b1e138c8c740fd465f53ff8fc5efd739107c3479fc33aac3af2 : /opt/app/play-instrument.js,piano
+19a8bcb099234b7c447173535b8a4e731eaa8b937b1e61d076335225e2d053b3 : /opt/app/play-instrument.js,trumpet
+49326a17ff30d3e68b24b3c312561d11d7d26bee696df797be25427d0c62e203 : /opt/app/auditor.js

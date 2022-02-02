@@ -32,9 +32,15 @@ s.bind(PROTOCOL_PORT, function() {
 s.on('message', function(msg, source) {
 	console.log("Data has arrived: " + msg + ". Source port: " + source.port);
 
-    var data = JSON.parse(msg.toString());
+    var data = JSON.parse(msg);
 
-    activeMusicians[data['id']] = [data['instrument'], Date.now()];
+
+    if(data['id'] in activeMusicians){
+        activeMusicians[data['id']] = [data['instrument'], Date.now(), activeMusicians[data['id']][2]];
+    }else{
+        activeMusicians[data['id']] = [data['instrument'], Date.now(), Date.now()];
+    }
+    
 });
 
 function getRecentMusicians(object){
@@ -50,7 +56,7 @@ function getRecentMusicians(object){
             arr.push({
                 'uuid': key,
                 'instrument': Object.keys(instruments).find(key => instruments[key] === value[0]),
-                'activeSince': value[1].toString()
+                'activeSince': new Date(value[2])
             });
         }
     }
